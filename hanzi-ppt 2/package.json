@@ -1,0 +1,35 @@
+{
+  "name": "hanzi-ppt",
+  "version": "1.0.0",
+  "description": "汉字笔画动画 GIF + PowerPoint 生成工具 / Generate animated stroke-order GIFs and PowerPoint decks for Chinese characters",
+  "main": "src/make_pptx.js",
+  "bin": {
+    "hanzi-gif": "./src/make_gifs.py",
+    "hanzi-ppt": "./src/make_pptx.js"
+  },
+  "scripts": {
+    "example": "node examples/example_deck.js && python3 src/fix_gif_pptx.py output/example.pptx output/example_final.pptx",
+    "setup": "npm install"
+  },
+  "dependencies": {
+    "hanzi-writer-data": "^2.0.0",
+    "pptxgenjs": "^4.0.0"
+  },
+  "keywords": [
+    "hanzi",
+    "chinese",
+    "stroke-order",
+    "animation",
+    "gif",
+    "powerpoint",
+    "pptx",
+    "教育",
+    "汉字",
+    "笔顺"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

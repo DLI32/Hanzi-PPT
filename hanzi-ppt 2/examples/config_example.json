@@ -1,0 +1,27 @@
+{
+  "title": "汉字笔画动画",
+  "groups": [
+    {
+      "name": "车字旁",
+      "color": "B45309",
+      "colorLight": "FEF3C7",
+      "note": "与车辆、运输有关，位于字的左侧",
+      "chars": [
+        { "ch": "辆", "py": "liàng", "strokes": 11, "words": ["一辆", "车辆", "辆数"] },
+        { "ch": "轻", "py": "qīng",  "strokes": 9,  "words": ["轻松", "年轻", "轻重"] },
+        { "ch": "较", "py": "jiào",  "strokes": 10, "words": ["比较", "较好", "较大"] },
+        { "ch": "辅", "py": "fǔ",    "strokes": 11, "words": ["辅助", "辅导", "辅佐"] }
+      ]
+    },
+    {
+      "name": "门字框",
+      "color": "1560BD",
+      "colorLight": "EFF6FF",
+      "note": "与出入、围合有关，包围其他部件",
+      "chars": [
+        { "ch": "同", "py": "tóng", "strokes": 6, "words": ["相同", "同学", "同时"] },
+        { "ch": "内", "py": "nèi",  "strokes": 4, "words": ["内部", "国内", "室内"] }
+      ]
+    }
+  ]
+}
